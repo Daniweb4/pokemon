@@ -1,0 +1,45 @@
+.container3{
+    background-color: rgb(137, 137, 188);
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     border: 5px solid;
+     width: 250px;
+     border-radius: 20px;
+     position: relative;
+     gap: 5px;
+}.container3:hover{
+    transform: scale(1.1);
+}.container3 div{
+    position:absolute;
+    background-color: orange;
+    height: 100px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}.container3 figure{
+    width: 150px;
+    position: relative;
+    z-index: 10px;
+}
+.container3 hr{
+    width: 85%;
+}.container3 figure{
+    width: 150px;
+}.poke_types{
+    display: flex;
+    gap: 5px;
+}.poke_stats{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    padding: 15px;
+    width: 85%;
+    gap: 10px;
+}.poke_stats li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slot2::before{
+    content:'/ ';
+}

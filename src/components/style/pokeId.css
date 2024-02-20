@@ -1,0 +1,102 @@
+.container4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    width: 100%;
+    width: 350px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgba(95, 164, 166, 0.258);
+
+
+}.container4 figure img{
+    width: 150px;
+    margin-left: 69px;
+    
+
+}.container4 p{
+    text-align: center;
+}.container4 h2{
+    text-align: center;
+
+}.container4 hr{
+  width: 300px;
+}.weight_height{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+
+
+}.type{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}.poke_typ{
+    display: flex;
+    margin-left: 60px;
+    gap: 40px;
+    color: white;
+   
+}.poke_typ .slot1{
+    
+    width: 70px;
+    text-align: center;
+    background-color: rgb(86, 86, 28);
+}.poke_typ .slot2{
+    
+    width: 70px;
+    text-align: center;
+    background-color: rgb(54, 45, 62);
+}.ability .slot1 {
+    margin-top: 5px;
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    border:1px solid ;
+    background-color: aliceblue;
+    
+    
+    
+}.ability .slot2{
+   
+    margin-top: 4px;
+    text-align: center;
+    list-style: none;
+    background-color: aliceblue;
+    border:1px solid ;
+    
+}.ability .slot3{
+    margin-top: 4px;
+    list-style: none;
+    background-color: aliceblue;
+    text-align: center;
+    margin-bottom: 5px;
+    border:1px solid ;
+   
+    
+  
+  
+   
+}
+.tip{
+   
+   
+}.pok_stat{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    padding: 20px;
+    width: 100%;
+    gap: 10px;
+
+}.pok_stat li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}.stat{
+    margin-top: 5px;
+}
