@@ -7,7 +7,10 @@
     margin-top: -20px;
     gap: 10px;
  
-}.name_pokemon{
+}.pokedinput{
+    height: 25px;
+}
+.name_pokemon{
     color:red;
 }
 .pokedex1 h3{
@@ -25,7 +28,7 @@
     justify-content: space-evenly;
     gap: 20px;
 }.pokedbtn{
-    font-size: 17px;
+    font-size: 15px;
 }.img3{
     display: inline-block;
     
