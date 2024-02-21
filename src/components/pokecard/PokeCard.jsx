@@ -1,9 +1,11 @@
-import React, { useEffect } from 'react'
+import React, { useEffect,useState } from 'react'
 import useFetch from '../../hooks/useFetch'
 import {useNavigate} from 'react-router-dom'
 import '../style/pokeCard.css'
+
 const PokeCard = ({url}) => {
     //consumimos la api que tenemos en el hooks
+   
     const [pokemo, getPokemo]= useFetch();
     const navigate=useNavigate()
     useEffect(() => {
@@ -13,7 +15,7 @@ const PokeCard = ({url}) => {
     const handleClick=() =>{
       navigate(`/pokedex/${pokemo.id}`)
     }
-    
+      
   return (
     <article  className='container3' onClick={handleClick}>
       <div></div>
@@ -40,7 +42,10 @@ const PokeCard = ({url}) => {
           ))
         }
       </ul>
+    
     </article>
+    
+   
   )
 }
 

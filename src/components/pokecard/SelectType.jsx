@@ -2,6 +2,7 @@ import React, { useEffect,useRef } from 'react'
 import useFetch from '../../hooks/useFetch';
 import { setpokemonName } from '../../store/slices/pokemonName..slice';
 import  {useDispatch}from 'react-redux'
+import '../style/select.css'
 const SelectType = ({setSelect}) => {
     const [pokiApi, getPokiApi]=useFetch();
     const dispatch=useDispatch();

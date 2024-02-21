@@ -4,7 +4,7 @@ import {useSelector} from 'react-redux'
 const Protected = () => {
     const trainerName=useSelector
     (store=>store.trainerName);
-    if(trainerName==='Danilo'){
+    if(trainerName.length>3){
         return <Outlet/>
     }else{
         return<Navigate to='/'/>
