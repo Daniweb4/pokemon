@@ -13,7 +13,7 @@
     transform: scale(1.1);
 }.container3 div{
     position:absolute;
-    background-color: orange;
+    
     height: 100px;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
@@ -43,4 +43,38 @@
 }
 .slot2::before{
     content:'/ ';
+}.grass{
+    background-color: green;
+}.fire{
+    background-color: yellow;
+}.water{
+    background-color:  rgb(50, 50, 99);
+}.bug{
+    background-color: rgb(66, 20, 20);
+}.normal{
+    background-color: rgb(127, 182, 255);
+}.poison{
+    background-color: rgb(56, 38, 73);
+}.electric{
+    background-color: chocolate;
+}.ground{
+    background-color: aqua;
+}.psychic{
+    background-color: cornflowerblue;
+}.rock{
+    background-color: cyan;
+}.fighting{
+    background-color: orchid;
+}.ghost{
+    background-color: olivedrab;
+}.steel{
+    background-color: olive;
+}.ice{
+    background-color: antiquewhite;
+}.dragon{
+    background-color: rgb(0, 200, 255);
+}.dark{
+    background-color: rgb(142, 35, 128);
+}.fairy{
+    background-color: rgba(137, 43, 226, 0.332);
 }

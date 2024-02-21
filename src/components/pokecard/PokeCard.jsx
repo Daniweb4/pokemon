@@ -18,7 +18,7 @@ const PokeCard = ({url}) => {
       
   return (
     <article  className='container3' onClick={handleClick}>
-      <div></div>
+      <div className={pokemo?.types[0].type.name}></div>
       <figure>
       <img src={pokemo?.sprites.other['official-artwork'].front_default}/>
       </figure>
