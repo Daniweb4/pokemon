@@ -95,8 +95,9 @@ background-color: rgb(225, 211, 211);
 }
 .footer_father{
   
- position: relative;
- top: 210px;
+ position: absolute;
+ bottom: 0;
+ width: 100%;
  
  
   

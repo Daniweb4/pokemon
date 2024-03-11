@@ -14,6 +14,7 @@ const PokedexId = () => {
   console.log(pokeData)
   return (
     <article  className='container4'>
+      <div className={pokeData?.stats[0].stat.base_stat}></div>
     <div>
     <figure>
       <img src={pokeData?.sprites.other['official-artwork'].front_default}/>
@@ -52,9 +53,10 @@ const PokedexId = () => {
            pokeData?.stats.map(stat =>(
             !stat.stat.name.includes('special')&&
             <li key={stat.stat.url} >{stat.stat.name}<span>{stat.base_stat}</span></li>
-  
+            
           ))
         }
+       
       
       </ul>
     </div>
