@@ -66,7 +66,7 @@ const PokedexCard = () => {
   
   return (
     <div className='container2'>
-      <img className='img3' src='https://s3-alpha-sig.figma.com/img/ca59/d9ce/98042af437fdff212d3259040db2e2db?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iRm6vCpmOAn20ysvawHlB7ERW2ZMFUUkbtda2y17qGtEq3E-8lOwGuct5rFCJosRRTBsCvvE033UJH2iVoXCr1IUYwRgBbNKXbK9KQTWZwNgxzlCyVOWs9q6hxJ6mzNj9UewW3IcM0b80LYopqHH0V2cH7TFcpeskFvUjN3tRiCIYoByY2gjNS9gEIJgJjDWGNM6LXV1-EeKiLCzC~AKGxsadyIj53LlJ1i5rrL7nC03w7xi2u0j8S1WS2JyZStL4xPus0J0FYa4PUrD9M7RC5xFSqqhRub35cJmLnM1LzMbDhyJNO~JQY7qppJl-ThCH-evNAkgg-kdI0vhMZ1ZGw'/>
+      <img className='img3' src='https://s3-alpha-sig.figma.com/img/ca59/d9ce/98042af437fdff212d3259040db2e2db?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jYOViXUwNHqR0diMPOoLle7b-YDcj8zVF4YQwQYeFuHZkMM0M~SEr6KESa18ScWi9SrpImAeaqRMAAprxfYnqH72R2uijZthu5Ivs8rMMVW37KedYYlYY40-aQWJsN3cU9A67Y76wFQ8cKT8IL~dNdcZgKhdJ65EX~0yH-GFxtZoNyUcZHd1xdY5Dl6JP~LDgtW6Ixu3phoQBg-TD27LB5tt~u5AkA-l9-zsC8CvRhuegs635Qqk~D9VdDHneHSzzojTrEh6Yy4lsvf7Qz1m0u5OWnkEyLOj~-P4Zr~ZWRF3oAbRbsmXgSFdJUG-r5C7Cv6GjJ~3KJYi~SU-fU1ycQ__'/>
       <section className='pokedex1'>
       <img></img>
       <h3 className='dato'>Bienvenido <span className='name_pokemon'>{trainerName} </span>aqui podras encontrar tu pokemon</h3>
